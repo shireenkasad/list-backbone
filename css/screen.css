@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    background-color: #333;
+    color: #777;
+}
+
+.content { 
+	width: 320px; 
+	margin: 0 auto; 
+	padding: 15px;
+	background-color:#ffffff;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h1 { 
+	font-size: 1.3em; 
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+input { 
+	display: inline-block;
+	width: 50%; 
+	margin: -1px 0;
+	padding: 10px 5px; 
+	font-size: .9em;
+	color: #777;
+}
+
+.error {
+	display: inline-block;
+	padding: 8px;
+	font-size: .8em;
+	color: #ff0000;
+}
+
+button { 
+	margin: 20px 0 30px 0;
+    background-color: #ededed;
+    border-color: #ddd;
+    border-image: none;
+    padding: 5px;
+    width: 100px;
+    border-style: solid;
+    color: #418ecf;
+}
+
+button:hover{
+	background-color: #c6e0f6;
+	border-color: #adc4d7;
+}
+
+.block {
+	position: relative;
+	background-color: #efefef;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+.block div:first-child {
+	font-size: 1.2em;
+}
+
+.remove{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.clearAll {
+	text-align: right;
+    padding-bottom: 5px;
+    font-size: .8em;
+    color: #418ecf;
+    cursor: pointer;
+}
+.hide {
+	display: none;
+}
+
